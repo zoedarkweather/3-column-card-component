@@ -1,0 +1,122 @@
+* {
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+:root {
+    --bright-orange: hsl(31, 77%, 52%);
+    --dark-cyan: hsl(184, 100%, 22%);
+    --very-dark-cyan: hsl(179, 100%, 13%);
+    --transparent-white: hsla(0, 0%, 100%, 0.75);
+    --very-light-gray: hsl(0, 0%, 95%);
+}
+
+img {
+    display: block;
+    max-width: 100%;
+}
+
+body {
+    font-size: 15px;
+    font-family: "Lexend Deca", Arial, Helvetica, sans-serif;
+    font-weight: 400;   
+    background-color: var(--very-light-gray);
+}
+
+h2 {
+    margin: 2rem 1rem;
+    text-transform: uppercase;
+    font-family: "Big Shoulders Display", Arial, Helvetica, sans-serif;
+    font-size: 2.7rem;
+    color: var(--very-light-gray)
+}
+
+p {
+    margin: 0 1rem 5rem 1rem;
+    line-height: 1.5rem;
+    color: var(--transparent-white);
+}
+
+.grid-container {
+    width: 75vw;
+    margin: 5rem auto;
+}
+
+.card {    
+    padding: 2rem;   
+    padding-top: 2.5rem
+}
+
+.sedans {    
+    background-color: var(--bright-orange);
+}
+
+.SUVs {
+    background-color: var(--dark-cyan);
+
+}
+
+.luxury {
+    background-color: var(--very-dark-cyan);
+}
+
+.btn-card {
+    cursor: pointer;
+    display: block;
+    width: 8rem;
+    height: 2.7rem;
+    margin: 1rem;
+    border: 3px solid var(--very-light-gray);
+    border-radius: 20px;
+    font-family: "Lexend Deca", Arial, Helvetica, sans-serif;
+    font-weight: 400;
+    background-color: var(--very-light-gray);
+}
+
+.btn-sedans {
+    color: var(--bright-orange)
+}
+
+.btn-SUVs {
+    color: var(--dark-cyan);
+}
+
+.btn-luxury {
+    color: var(--very-dark-cyan);
+}
+
+.btn-sedans:hover,
+.btn-sedans:active {
+    color: var(--very-light-gray);
+    background-color: var(--bright-orange);
+}
+
+.btn-SUVs:hover,
+.btn-SUVs:active {
+    color: var(--very-light-gray);
+    background-color: var(--dark-cyan);
+}
+
+.btn-luxury:hover,
+.btn-luxury:active {  
+    color: var(--very-light-gray);  
+    background-color: var(--very-dark-cyan);
+}
+
+.attribution { 
+    font-size: 11px; 
+    text-align: center; 
+}
+
+.attribution a { 
+    color: hsl(228, 45%, 44%); 
+}
+
+@media (min-width:850px) {
+    .grid-container {
+        max-width: 900px;
+        display:grid;
+        grid-template-columns: repeat(3, minmax(250px, 300px));
+    }
+}
