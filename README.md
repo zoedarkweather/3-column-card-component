@@ -33,18 +33,10 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: [https://github.com/zoedarkweather/zoedarkweather.github.io](https://github.com/zoedarkweather/zoedarkweather.github.io)
+- Live Site URL: [https://zoedarkweather.github.io/](https://zoedarkweather.github.io/)
 
 ## My process
-- Code the HTML and make sure page has solid structure
-- Grab fonts/import from Google Fonts
-- Copy colors from design spec into stylesheet and make them variables for better readability
-- Code css for mobile layout, and colors/typography etc
-- Test 
-- Add media query and code desktop layout
-- Test, double checking for any additional breakpoints
-- Fix any breakpoints if needed, test again
 
 ### Built with
 
