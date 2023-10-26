@@ -44,6 +44,12 @@ p {
     color: var(--transparent-white);
 }
 
+.screenreader-only {
+    width: 0;
+    height: 0;
+    overflow: hidden;
+}
+
 .container {
     width: 80vw;  
     margin: 2em auto; 
