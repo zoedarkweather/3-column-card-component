@@ -17,7 +17,7 @@ This is a solution to the [3-column preview card component challenge on Frontend
 
 ## Overview
 
-Mobile-first responsive three-column card component using css grid.
+Mobile-first responsive three-column card component using css flexbox.
 
 ### The challenge
 
