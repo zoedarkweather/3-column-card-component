@@ -1,9 +1,3 @@
-* {
-    margin:0;
-    padding:0;
-    box-sizing: border-box;
-}
-
 :root {
     --font-primary: "Lexend Deca", Arial, Helvetica, sans-serif;
     --font-heading:"Big Shoulders Display", Arial, Helvetica, sans-serif;
@@ -13,6 +7,13 @@
     --very-dark-cyan: hsl(179, 100%, 13%);
     --transparent-white: hsla(0, 0%, 100%, 0.75);
     --very-light-gray: hsl(0, 0%, 95%);
+    --transparent: hsla(0,0%,100%,0);
+}
+
+* {
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
 }
 
 img {
@@ -40,7 +41,7 @@ h2 {
 }
 
 p {
-    line-height: 1.5rem;
+    line-height: 1.5;
     color: var(--transparent-white);
 }
 
@@ -55,8 +56,8 @@ p {
     margin: 2em auto; 
 }
 
-.card {    
-    padding: 2.5em;      
+.card {  
+    padding: 2.5em;         
 }
 
 .sedans {  
@@ -101,22 +102,10 @@ p {
     color: var(--very-dark-cyan);
 }
 
-.btn-sedans:hover,
-.btn-sedans:active {
+.btn-card:hover,
+.btn-card:active {
     color: var(--very-light-gray);
-    background-color: var(--bright-orange);
-}
-
-.btn-SUVs:hover,
-.btn-SUVs:active {
-    color: var(--very-light-gray);
-    background-color: var(--dark-cyan);
-}
-
-.btn-luxury:hover,
-.btn-luxury:active {  
-    color: var(--very-light-gray);  
-    background-color: var(--very-dark-cyan);
+    background-color: var(--transparent);
 }
 
 .attribution { 
